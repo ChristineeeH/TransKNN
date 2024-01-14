@@ -1,2 +1,4 @@
 # TransKNN
-Using transfer learning method to improve KNN model
+transKNN将迁移学习的思想引入KNN二分类算法，将源域数据集中与目标域数据集中相似的信息充分利用，并用其提升KNN算法的准确度。
+# Example
+example文件中包含一个生成数据并使用TransKNN函数进行二分类的案例，其中生成数据用到的函数包含在experiment文件和Y_generation文件中。
